@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+a {
+    cursor: pointer;
+}
+:root {
+    --black: black;
+    --white: white;
+    --purple: #9D00FF;
+    --blue: #0033FF;
+}
+
+
+header nav {
+    width: 100%;
+    height: 112px;
+}
+header nav section {
+    width: 100%;
+    height: 56px;
+    background-color: black;
+    padding: 4px; 
+}
+
+header nav .nav-social_networks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+header nav .nav-social_networks a {
+    background-color: var(--blue);
+    border-radius: 50%;
+    padding: 4px;
+}
+header nav .nav-social_networks a:hover {
+    background-color: var(--purple);
+}
+header nav .nav-social_networks a img {
+    height: 100%;
+    width: 100%;
+}
+
+header nav .nav-information {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+header nav .nav-information .nav-information-logo-container {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    height: 48px;
+}
+header nav .nav-information .nav-information-logo-container img {
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--blue);
+    padding: 1px;
+}
+header nav .nav-information .nav-information-logo-container h3 {
+    color: var(--white);
+    margin-left: 4px;
+    font-size: 4.4rem;
+    color: var(--blue);
+}
+header nav .nav-information .nav-information-sections_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header nav .nav-information .nav-information-sections_container a {
+    color: var(--white);
+    font-size: 1.2rem;
+}
+header nav .nav-information .nav-information-sections_container a:hover {
+    color: var(--purple);
+}
