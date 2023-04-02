@@ -291,7 +291,7 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
+	background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201026/pngtree-vector-illustration-circuit-board-and-hexagons-background-hi-tech-digital-technology-image_435064.jpg);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -641,7 +641,7 @@ p {
 		padding: 100px 0;
 		align-items: center;
 		justify-content: center;
-		min-width: 20vh;
+		min-height: 20vh;
 	}
 	#contact .contact-items {
 		width: 100%;
