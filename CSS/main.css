@@ -362,6 +362,7 @@ p {
 	flex-direction: column;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
+	width: 100%;
 }
 #projects .project-info h1 {
 	font-size: 4rem;
@@ -479,6 +480,9 @@ p {
 	width: 70px;
 	margin: 0 auto;
 	margin-bottom: 10px;
+}
+#contact .contact-info {
+	text-align: center;
 }
 #contact .contact-info h1 {
 	font-size: 2.5rem;
